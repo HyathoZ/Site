@@ -1,0 +1,24 @@
+table {
+  padding: 10px;
+  border-radius: 3px;
+  border-style: groove;
+  border-color: slategrey;
+}
+td {
+  border-style: groove;
+  padding: 5px;
+  border-color: slategrey;
+  color: white;
+}
+.tabelaLinks {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.titleNav {
+  text-align: center;
+}
+.linkNav {
+  padding: 20px;
+}

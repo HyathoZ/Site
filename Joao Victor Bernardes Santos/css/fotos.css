@@ -1,0 +1,19 @@
+h2 {
+  margin-bottom: 10px;
+}
+.imageGame {
+  width: 200px;
+  height: auto;
+  margin: 10px;
+  border: 1px solid #ccc;
+}
+.game-container {
+  margin-bottom: 40px;
+  text-align: center;
+}
+.titleNav {
+  text-align: center;
+}
+.linkNav {
+  padding: 20px;
+}
