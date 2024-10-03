@@ -3,9 +3,6 @@ section{
   justify-content: center;
   flex-direction: column;
 }
-.linkNav {
-  padding: 20px;
-}
 .textMain {
   display: flex;
   align-items: center;
@@ -15,16 +12,20 @@ section{
   padding-inline: 100px;
   display: grid;
   grid-template-columns: 0.5fr 1fr; /* 2 colunas de tamanho igual */
-
+  gap: 25px;
 }
 .gifSection img {
-  border-radius: 50%; /* Para arredondar completamente */
-}
-.gifSection img {
-  border-radius: 20px; /* Bordas levemente arredondadas */
+  border-radius: 10%; /* Para arredondar completamente */
+  width: 90%;
 }
 .gifSection {
   border-radius: 20px;
   gap: 20%;
 
+}
+@media (max-width: 860px) {
+	.textMain{
+    display: flex;
+      flex-direction: column;
+  }
 }

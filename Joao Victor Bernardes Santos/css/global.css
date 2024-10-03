@@ -56,3 +56,9 @@ footer {
   padding: 1%;
   border-radius: 10px;
 }
+.titleNav {
+  text-align: center;
+}
+.linkNav {
+  padding: 20px;
+}
